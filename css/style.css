@@ -1,0 +1,1636 @@
+@font-face {
+    font-family: 'dream_gloryregular';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/fonts/dream_glory-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/fonts/dream_glory-webfont.woff') format('woff');
+}
+
+html, 
+body{
+    box-sizing: border-box;    
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html,
+body{
+    overflow-x: hidden;
+}
+.clear{
+    clear: both;
+}
+    #social{
+        margin: 10px;
+        position: relative;
+        right: 0;        
+        text-align: right;
+        z-index: 600;
+    }
+       #social ul{
+          display: inline-block;
+          margin: 0 auto;
+          padding: 0;
+          vertical-align: middle;
+      }
+          #social ul li{
+              display: inline-block;
+              margin: 0 3px;
+              vertical-align: middle;
+          }
+            #social ul li a{
+                height: 36px;
+                width: 36px;
+            }
+            #fb{
+                background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0;
+                background-size: 100% !important;
+                border: none;
+                display: inline-block;
+                height: 36px;
+                text-indent: -9999px;
+                width: 36px;
+            }
+
+            #wst{                
+                background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                background-size: 100% !important;
+                border: none;
+                display: none;
+                height: 36px;
+                text-indent: -9999px;
+                width: 36px;
+            }
+
+            #tw{            
+                background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                background-size: 100% !important;
+                border: none;
+                display: inline-block;
+                height: 36px;
+                text-indent: -9999px;
+                width: 36px;
+            } 
+.header-comercio{    
+    position: absolute;
+    right: 0;
+}
+.box-cabecera{
+    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/bg-portada.webp') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}   
+    .granos-portada{
+        left: -5%;
+        max-width: 80%;
+        position: absolute;
+        top: -300px;        
+        z-index: 10;
+    } 
+    .taza-portada{
+        bottom: -140px;
+        max-width: 600px;
+        position: absolute;
+        right: -125px;
+    }
+    .box-titulo{
+        left: 50%;        
+        margin-bottom: 50px;
+        position: absolute;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        top: 50%;
+    } 
+        .box-titulo h1{
+            background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/bg-titulo.webp') no-repeat center top;
+            background-size: cover;
+            font: 48px / 1.2 'dream_gloryregular';
+            height: 250px;
+            margin: 5px auto;
+            text-indent: -9999px;
+            width: 500px;            
+        }
+        .box-titulo h2{
+            color: #fff;
+            font: 24px / 1.2 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 30px auto;
+            max-width: 400px;
+            text-align: center;
+        }
+            .box-titulo h2 span{
+                color: #DEA050;
+            }
+    .flecha-bajar{
+        cursor: pointer;
+        max-width: 60px;
+    }
+    .box-main-lista{        
+        margin: 0 auto 100px;
+    }
+        .box-main-lista h3{
+            color: #DEA050;
+            font: 24px/1 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 0 auto 40px;
+            padding-top: 80px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+            .box-main-lista h3 span{
+                color: #402710;
+                display: block;
+                font: 48px / 1.2 "Caveat", cursive;
+                font-weight: 700;
+                margin-top: -8px;
+                text-transform: none;                
+            }
+        .listas{
+            margin: 0 auto;
+            max-width: 700px;            
+            text-align: center;
+        }
+            .btn-reset{
+                background: #38160a;
+                border-radius: 25px;                
+                color: #DEA050;
+                cursor: pointer;
+                font: 14px / 1 "Roboto", sans-serif;
+                font-weight: 400;
+                margin: 20px 90px;                
+                max-width: 250px;
+                padding: 10px;  
+                text-align: center;              
+                text-transform: uppercase;                
+            }
+            .box-lista{
+                display: inline-block;
+                margin: 0 20px 30px;
+                max-width: 300px;
+                min-width: 300px;
+                text-align: left;
+                vertical-align: top;
+            }
+                .box-lista span{
+                    color: #402710;
+                    display: block;
+                    font: 18px/1 "Roboto", sans-serif;
+                    font-weight: 800;
+                    margin-bottom: 20px;
+                }
+                span.numero{
+                    background: #DEA050;
+                    border-radius: 32px;
+                    display: block;
+                    font: 24px/1 'dream_gloryregular';
+                    margin: 0 0 10px;
+                    padding: 10px;
+                    text-align: center;
+                    width: 25px;
+                }
+                .box-opcion{
+                    margin-bottom: 10px;
+                }
+                    .box-opcion input[type="radio"]{
+                        cursor: pointer;
+                        display: inline-block;
+                        height: 15px;                        
+                        vertical-align: top;
+                        width: 15px;
+                    }
+                    .box-opcion p{
+                        display: inline-block;
+                        font: 13px/1.1 "Roboto", sans-serif;
+                        font-weight: 400;
+                        margin: 3px auto;
+                        vertical-align: top;
+                    }                    
+                    input[type="radio"] {
+                        cursor: pointer;
+                        opacity: 0;
+                        position: absolute;                        
+                    }                    
+                    input[type="radio"] + label {
+                        cursor: pointer;
+                        display: inline-block;                        
+                        font: 13px/1.1 "Roboto", sans-serif;
+                        font-weight: 400;
+                        position: relative;
+                        padding-left: 25px;
+                        user-select: none;    
+                        vertical-align: top;
+                    }                    
+                    input[type="radio"] + label::before {
+                        border-radius: 50%;
+                        background-color: #e6e6e6;
+                        border: 1px solid #989898;
+                        content: '';                        
+                        height: 16px;
+                        left: 0;
+                        position: absolute;
+                        top: 0;
+                        width: 16px;
+                    }                    
+                    input[type="radio"]:checked + label::after {
+                        background-color: #402710;
+                        border-radius: 50%;
+                        content: '';
+                        height: 12px;
+                        left: 3px;
+                        position: absolute;
+                        top: 3px;
+                        width: 12px;
+                    }                
+                .inactive,
+                .btn-ordenar-inactivo{
+                    cursor: none;
+                    opacity: .3;
+                    pointer-events: none;
+                }
+            .btn-ordenar{
+                background: #DEA050;
+                border-radius: 30px;
+                color: #ffffff;
+                cursor: pointer;
+                font: 26px / 1.2 "Caveat", cursive;
+                font-weight: 700;
+                margin: 20px auto;
+                max-width: 150px;
+                padding: 5px;                
+            }
+                .btn-ordenar:hover{
+                    background-color: #402710;
+                }
+            .box-preparando{
+                margin: 20px auto 0;
+            }
+                .box-preparando p{
+                    color: #DEA050;
+                    font: 28px / 1.2 "Caveat", cursive;
+                    font-weight: 700;
+                    margin: 0 auto;
+                }
+                .box-preparando img{
+                    max-width: 200px;
+                }
+  
+            
+.box-contenido{
+    
+}  
+    .box-texto-recomendacion{
+        margin: 0 auto;
+        max-width: 300px;        
+    }
+        .box-texto-recomendacion h4{
+            color: #402710;
+            font: 24px/1.1 "Caveat", cursive;
+            font-weight: 700; 
+            margin-bottom: 10px;
+        }
+            .box-texto-recomendacion h4 span{
+                color: #DEA050;
+            }
+        .box-texto-recomendacion p{
+            font: 16px/1.5 "Roboto", sans-serif;
+            font-weight: 400;
+        }
+    .box-servilleta{
+        background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/servilleta.webp') no-repeat center top; 
+        background-size: cover;
+        box-sizing: border-box;
+        height: 760px;    
+        margin: 0 auto;   
+        position: relative;
+        text-align: center; 
+        width: 800px;
+        z-index: 10;
+    }  
+    .box-contenido h3{
+        color: #402710;
+        font: 42px/1 "Caveat", cursive;
+        font-weight: 700;
+        margin: 0 auto 50px;
+        padding-top: 40px;
+        text-align: center;
+    }
+        .box-contenido h3 span{
+            display: block;
+            font-weight: 400;
+            font-size: 31px;
+        }
+    .box-columna-info{
+        display: inline-block;
+        margin: 0 auto;            
+        max-width: 320px;
+        text-align: left;
+        vertical-align: top;
+    }
+        .box-columna-info h4{
+            color: #4e3722;            
+            font: 19px/1.1 "Caveat", cursive;
+            font-weight: 700; 
+            margin: 0 auto 20px;           
+        }
+            .box-columna-info h4 span{
+                color: #402710;
+            }
+        .box-columna-info p.subtitulo{
+            font-size: 19px;
+            font-weight: 700;
+            margin: 0 auto 5px;
+            text-transform: uppercase;
+        }
+        .box-columna-info p{
+            font: 13px/1.5 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 0 auto;
+        }
+            .box-columna-info p span{
+                font-weight: 700;
+            }
+    img.taza{
+        display: inline-block;
+        margin: 0 20px 0;
+        max-width: 250px;
+        vertical-align: top;
+    }
+    .box-columna-cifras{
+        margin: 30px 95px 0;
+        text-align: left;
+        vertical-align: top;        
+    }
+        .box-info-cifras{
+            display: inline-block;
+            max-width: 320px;
+            text-align: left;
+            vertical-align: top;
+        }
+            .box-info-cifras p.subtitulo{
+                font-size: 19px;
+                font-weight: 700;
+                margin: 0 auto 5px;
+                text-transform: uppercase;
+            }
+            .box-info-cifras p{
+                font: 13px/1.5 "Roboto", sans-serif;
+                font-weight: 400;
+                margin: 0 auto;
+            }
+    .box-gris{
+        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/bg-gris.jpg) no-repeat center top;
+        background-size: cover;
+        height: 80vh;
+        margin-top: -450px;
+        padding-top: 200px;
+        position: relative;
+    }
+        img.granos-recomendacion{            
+            max-width: 800px;
+            position: absolute;
+            right: -270px;
+            z-index: 10;
+        }
+        .leer-mas{
+            border-bottom: 3px solid #DEA050;
+            bottom: 150px;
+            color: #fff;
+            cursor: pointer;
+            display: block;
+            font: 31px / 1 "Caveat", cursive;
+            left: 50%;
+            margin-left: -50px;       
+            max-width: 100px;
+            position: absolute;
+            text-align: center;
+            width: 100%; 
+        }
+    #contenido-5{
+        margin-bottom: 100px;
+    }
+        #contenido-5 .box-texto-recomendacion{
+            max-width: 500px;
+        }
+.box-granos{
+    background: #F8E8D4;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 10;
+}    
+    .box-granos::after,
+    .box-cifras::after,
+    .box-gasto::after,
+    .box-competencias::after,
+    .box-ruta::after,
+    .box-main-buscador::after,
+    .box-main-tazas::after,
+    .box-personaje::after{
+        border-color: transparent transparent #F8E8D4 transparent;
+        border-style: solid;
+        border-width: 0 54px 40px 54px;        
+        bottom: -40px;
+        content: '';
+        height: 0px;  
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%) rotate(180deg);
+        width: 0px;   
+        z-index: 10;    
+    }
+    img.planta-cafe{
+        margin-top: -100px;
+    }
+    img.granos-cafe{
+        max-width: 380px;
+        position: absolute;
+        z-index: 20;
+    }
+        .granos-cafe-izq{
+            left: 0;
+            top: 40%;
+        }
+        .granos-cafe-der{
+            right: 0;
+            top: 42%;
+        }
+    .box-frase{
+        margin: 20px auto;
+        max-width: 450px;
+    }
+        img.separador-frase{
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+        }
+        .box-frase h6{
+            font: 25px/1.3 "Caveat", cursive;
+            font-weight: 600;
+            margin: 20px auto;
+        }
+        .autor{
+            margin-bottom: 20px;
+        }
+            .autor img{
+                display: inline-block;
+                max-width: 50px;
+                vertical-align: top;
+            }
+            .info-autor{
+                display: inline-block;
+                margin-top: 5px;
+                vertical-align: top;
+            }
+                .box-frase .info-autor p,
+                .box-ruta .info-autor p{
+                    display: inline-block;
+                    font-style: italic;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 700;
+                    line-height: 1.3;
+                    margin: 0 10px;
+                    max-width: 300px;                    
+                    vertical-align: top;
+                }
+                    .box-frase .info-autor p span,
+                    .box-ruta .info-autor p span{
+                        display: block;
+                        font-weight: 400;
+                    }
+    .box-granos h4{
+        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/titulo-granos-peruanos-3.webp) no-repeat center top;
+        background-size: cover;
+        font: 48px / 1.2 'dream_gloryregular';
+        height: 120px;
+        margin: 5px auto;
+        margin-top: 80px;
+        text-indent: -9999px;
+        width: 370px;
+    }
+    .box-granos p{
+        font: 15px/1.5 "Roboto", sans-serif;
+        font-weight: 400;
+        margin: 40px auto;
+        max-width: 470px;
+    }
+    .box-parrafo{
+        margin: 0 auto 50px;
+        max-width: 400px;
+    }
+        .box-parrafo h5{
+            font: 26px / 1.2 "Caveat", cursive;
+            font-weight: 700;
+            margin: 0 auto;
+        }
+        .box-parrafo p{
+            margin: 10px auto 30px;
+        }
+            .box-parrafo p span{
+                font-style: italic;
+                font-weight: 700;
+            }
+            p.sangria{
+                margin-bottom: 10px;
+                margin-left: 25px;
+            }
+.box-cifras{
+    background-color: #FFF8F0;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    position: relative;
+}
+    .box-cifras::after{
+        border-color: transparent transparent #FFF8F0 transparent;
+    }
+    img.porta{
+        max-width: 500px;        
+        position: absolute;
+        right: -15%;
+        top: -100px;
+        z-index: 10;
+
+        transform: rotate(240deg);
+        transform-origin: 90% 50%; 
+    }
+    img.cifra-toneladas{
+        display: block;
+        margin: 20px auto;
+        max-width: 300px;
+    }
+    .box-cifras h4{
+        color: #DEA050;
+        font: 22px/.7 "Roboto", sans-serif;
+        font-weight: 400;
+        margin: 0 auto 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+        .box-cifras h4 span{
+            color: #402710;
+            font: 40px/1 "Caveat", cursive;
+            font-weight: 700;
+            display: block;
+            text-transform: none;
+        }
+    .box-cifras p{
+        font: 15px/1.5 "Roboto", sans-serif;
+        font-weight: 400;
+        margin: 0 auto 20px;
+        max-width: 400px;
+    }
+        .box-cifras p span{
+            background-color: #DEA050;
+            font-weight: 700;
+            padding: 3px;
+        }
+        .box-cifras p span.italic{
+            background-color: transparent;
+            font-style: italic;
+            font-weight: 700;
+        }
+.box-tipos{
+    padding-top: 80px;
+}   
+    .box-tipos h4,
+    .box-competencias h4{
+        color: #DEA050;
+        font: 22px/.7 "Roboto", sans-serif;
+        font-weight: 400;
+        margin: 0 auto 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+        .box-tipos h4 span,
+        .box-competencias h4 span{
+            color: #402710;
+            font: 40px/1 "Caveat", cursive;
+            font-weight: 700;
+            display: block;
+            text-transform: none;
+        }
+    .box-tipos p{
+        font: 15px / 1.5 "Roboto", sans-serif;
+        font-weight: 400;
+        margin: 0 auto 20px;
+        max-width: 420px;
+    }
+    .main-box-columna{
+        text-align: center;
+    }
+    .box-columna{
+        display: inline-block;
+        margin: 0 30px;
+        max-width: 290px;
+        text-align: left;
+        vertical-align: top;
+    }
+        .margin-top{
+            margin-top: 120px;
+        }
+        .box-columna ul{
+            list-style-type: none;
+            padding: 0;
+        }
+            .box-columna ul li{
+
+            }
+                .box-columna ul li img{
+                    display: block;
+                    max-width: 80px;
+                }
+                .box-columna ul li h5,
+                .box-info-competencia h5{
+                    background: #DEA050;
+                    display: inline-block;
+                    font: 15px / 1.5 "Roboto", sans-serif;
+                    font-style: italic;
+                    font-weight: 700; 
+                    margin: 5px auto;
+                    padding: 2px 5px;                   
+                }
+    .box-mapa{
+        margin: 50px auto 80px;
+        max-width: 350px;
+        text-align: center;
+    }
+        .box-mapa img{
+            display: block;
+            margin: 20px auto;
+        }
+        .box-mapa p{
+
+        }
+            .box-mapa p span{
+                font-style: italic;
+                font-weight: 800;
+            }
+    p.cifra{
+        background: #402710;
+        color: #DEA050;
+        font: 32px/1 "Roboto", sans-serif;
+        font-style: italic;
+        font-weight: 800;
+        max-width: 200px;
+        padding: 10px;
+        text-align: center;
+    }
+        p.cifra span{
+            color: #fff;
+            display: block;
+            font-size: 20px;
+        }
+.box-gasto{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+}
+    .box-gasto::after{
+        border-color: transparent transparent #fff transparent;
+    }
+    .box-gasto p,
+    .box-info-competencia p{
+        font: 15px / 1.5 "Roboto", sans-serif;        
+        font-weight: 400; 
+        margin: 30px auto;
+        max-width: 400px;
+        text-align: left;
+    }
+        .box-gasto p span.italic,
+        .box-texto-ruta p span.italic{
+            font-style: italic;
+            font-weight: 800;
+        }
+    .box-gasto h3{
+        color: #402710;
+        font: 40px/1 "Caveat", cursive;
+        font-weight: 700;
+        margin: 10px auto;
+        text-align: center;
+    }
+    p.bold{
+        font-weight: 900;
+        max-width: 250px;
+        text-align: center;
+    }
+    p.marron{
+        background-color: #DEA050;
+        box-sizing: border-box;
+        color: #402710;
+        display: inline-block;
+        font-style: italic;
+        font-weight: 900;    
+        margin: 0 10px;
+        max-width: 235px;
+        padding: 15px; 
+        text-align: center;  
+        vertical-align: top;        
+    }
+    span.amarillo{
+        color: #DEA050;
+        font-style: italic;
+        font-weight: 900;    
+    }
+    img.cafe-molido{
+        display: inline-block;
+        max-width: 500px;
+        vertical-align: top;
+    }
+    .main-exportacion{
+        display: inline-block;
+        margin: 0 50px 50px;
+        vertical-align: top;
+    }  
+        .main-exportacion h4,
+        .box-gasto h4,
+        .box-ruta h4,
+        .box-main-buscador h4,
+        .box-main-tazas h4{
+            color: #DEA050;
+            font: 22px / .7 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 0 auto 35px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+            .main-exportacion h4 span,
+            .box-gasto h4 span,
+            .box-ruta h4 span,
+            .box-main-buscador h4 span,
+            .box-main-tazas h4 span{
+                color: #402710;
+                font: 40px / 1 "Caveat", cursive;
+                font-weight: 700;
+                display: block;
+                text-transform: none;
+            }
+        .box-main-buscador h4{
+            margin-bottom: 10px;
+        }
+        .box-main-buscador p{
+            font: 14px / .7 "Roboto", sans-serif;
+            font-weight: 400;
+        }
+.box-competencias{
+    background-color: #F8E8D4;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    position: relative;
+}
+    .box-competencias::after {
+        border-color: transparent transparent #F8E8D4 transparent;
+    }
+    .main-competencias{
+        margin: 0 auto;
+        max-width: 950px;
+        text-align: center;
+    }
+        .competencia{
+            display: inline-block;
+            margin: 0 20px 40px;
+            vertical-align: top;
+        }
+            .competencia img{
+                border-right: 1px solid #402710;
+                display: inline-block;
+                max-width: 100px;
+                padding-right: 20px;
+                vertical-align: top;
+            }
+            .box-info-competencia{
+                display: inline-block;
+                max-width: 280px;
+                padding-left: 20px;
+                text-align: left;
+                vertical-align: top;
+            }
+                .box-info-competencia h5{
+                    margin-bottom: 10px;
+                }
+                .box-info-competencia p{
+                    margin: 0 auto;
+                }
+    img.logros{
+        display: block;
+        margin: 0 auto 30px;
+        max-width: 150px;
+    }
+    .main-logros{
+        text-align: center;
+    }
+        .separador{
+            background-color: #050000;
+            display: inline-block;
+            height: 155px;
+            vertical-align: top;
+            width: 1px;
+        }
+        .main-logros .box-info-competencia{
+            margin: 0 40px;
+            padding: 0;
+        }
+            .main-logros .box-info-competencia h5{
+                display: block;
+                text-align: center;
+            }
+            .main-logros .box-info-competencia p{
+                text-align: center;
+            }
+.box-ruta{
+    padding-bottom: 40px;
+    padding-top: 80px;
+    position: relative;
+}
+    .box-ruta::after {
+        border-color: transparent transparent #fff transparent;
+    }
+    img.bg-cuchara{
+        left: -100%;
+        max-width: 45%;
+        position: relative;
+    }
+    .box-texto-ruta{
+        display: inline-block;
+        margin: 0 20px;
+        max-width: 330px;
+        vertical-align: top;
+    }
+        .box-texto-ruta h5{
+            font: 24px / 1 "Caveat", cursive;
+            font-weight: 700;
+            margin: 0 auto;
+        }
+        .box-texto-ruta p{
+            font: 15px / 1.5 "Roboto", sans-serif;
+            font-weight: 400;
+            max-width: 400px;
+            text-align: left;
+        }
+    .main-pasaporte{
+        margin: 50px auto;
+        text-align: center;
+    }
+        .main-pasaporte .box-texto-ruta{
+            max-width: 350px;
+        }
+        .main-pasaporte img{
+            max-width: 30%;
+        }
+    .main-info-pasaporte{
+        text-align: center;
+    }
+        .box-info-pasaporte{
+            display: inline-block;
+            margin: 20px;
+            max-width: 350px;            
+            text-align: left;
+            vertical-align: top;
+        }
+            .main-info-pasaporte .box-info-pasaporte h4{
+                font: 19px / 1.5 "Roboto", sans-serif;
+                font-weight: 600;
+                margin: 0 auto 20px;
+            }
+            .box-info-pasaporte p{
+                font: 15px / 1.6 "Roboto", sans-serif;
+                font-weight: 400;
+                margin: 0 auto;
+                max-width: 400px;
+            }
+                .box-info-pasaporte p span{
+                    font-weight: 700;
+                }
+.box-main-buscador{
+    background-color: #FFF8F0;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+}   
+    .box-main-buscador::after {
+        border-color: transparent transparent #FFF8F0 transparent;
+    }
+    .box-desplegable{
+        margin: 20px auto 30px;
+        max-width: 250px;
+    }
+        .box-desplegable p{
+            color: #DEA050;
+            font: 15px / 1.5 "Roboto", sans-serif;
+            font-weight: 700;
+            margin: 0 auto 10px;
+            text-align: center;
+        }
+        .box-desplegable select{
+            background-color: #402710;
+            border: 1px solid #402710;
+            border-radius: 20px;
+            color: #DEA050;
+            font-size: 17px;
+            font-weight: 700;
+            padding: 5px 20px;
+            width: 100%;
+
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+
+            background-image: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/flecha-select-2.png?v2');
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: 1.5em; 
+            padding-right: 2.5em; 
+
+
+        }
+    .box-info-cafeteria{
+        display: inline-block;
+        margin: 20px;
+        max-width: 250px;
+        vertical-align: top;
+    }
+        .box-info-cafeteria h5{
+            background: #DEA050;
+            font: 15px/1.2 "Roboto", sans-serif;
+            font-weight: 700;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: left;
+        }
+            .box-info-cafeteria h5 span{
+                display: block;
+                font-weight: 400;
+            }
+        .box-texto-cafeteria{
+            background-color: #402710;
+            margin-top: -4px;
+            padding: 15px 10px 5px;
+            text-align: left;
+        }
+            .texto{
+                margin-bottom: 15px;
+            }
+                .texto img{
+                    display: inline-block;
+                    margin-right: 5px;
+                    max-width: 27px;
+                    vertical-align: top;
+                }
+                .texto h6{
+                    color: #fff;
+                    display: inline-block;
+                    font: 14px/1.3 "Roboto", sans-serif;
+                    font-weight: 700;
+                    margin: 0 auto;
+                    max-width: 190px;
+                    vertical-align: top;
+                }
+                    .texto h6 span{
+                        display: block;
+                        font-weight: 400;
+                    }
+.box-main-tazas{
+    background-color: #fff;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+} 
+    .box-main-tazas::after {
+        border-color: transparent transparent #fff transparent;
+    }
+    .box-main-tazas h4{
+        margin-bottom: 20px;
+    }
+    .box-slider-taza{
+        margin: 20px auto;
+        max-width: 700px;
+    }
+        ul#tazas-list{
+            list-style-type: none;
+            padding: 0;
+        }
+            ul#tazas-list li{
+                display: inline-block;
+                margin: 0 20px;
+                vertical-align: top;
+            }
+                ul#tazas-list li p{
+                    font: 42px/1.2 'dream_gloryregular';
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                    ul#tazas-list li p span{
+                        display: block;
+                        font-size: 15px;
+                    }
+                ul#tazas-list li img{
+                    max-width: 130px;
+                }
+        .box-slider-taza input[type="range"]{
+            -webkit-appearance: none; 
+            -moz-appearance: none; 
+            appearance: none; 
+            
+            background: #F2DAC3;
+            border-radius: 5px;
+            height: 8px;
+            margin: 0 auto;
+            outline: none;
+            width: 90%;  
+        }    
+            .box-slider-taza input[type="range"]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+
+                background: #402710;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                box-shadow: 0 0 5px rgba(0,0,0,0.2);
+                cursor: pointer;
+                height: 20px;
+                width: 20px;            
+            }
+            .box-slider-taza input[type="range"]::-moz-range-thumb {
+                background: #402710;
+                border: 2px solid #fff;
+                border-radius: 50%;
+                box-shadow: 0 0 5px rgba(0,0,0,0.2);
+                cursor: pointer;
+                height: 20px;
+                width: 20px;
+            }
+        #info-taza-1 p,
+        #info-taza-2 p,
+        #info-taza-3 p,
+        #info-taza-4 p{
+            font: 15px/1.5 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 20px auto;
+            max-width: 300px;
+        }
+        p.aviso{
+            color: #c19064;
+            font: 13px / 1.3 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 10px auto; 
+            max-width: 450px;            
+            text-transform: uppercase;                      
+        }
+.box-footer{
+    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/cafe-peruano/img/bg-portada.webp) no-repeat center center;
+    background-size: cover;   
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+}
+    .box-footer h4{
+        color: #DEA050;
+        font: 28px / 1 "Caveat", cursive;
+        font-weight: 700;
+        margin: 0 auto 40px;
+        text-align: center;
+    }
+        .box-footer h4 span{
+            color: #fff;
+        }
+    .credito{
+        border: 1px solid #fff;
+        box-sizing: border-box;
+        display: inline-block;
+        min-height: 275px;
+        max-width: 240px;
+        min-width: 240px;
+        text-align: left;
+        vertical-align: top;
+    }
+        .credito h5{
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            font: 18px / 1.2 'dream_gloryregular';     
+            margin: 20px auto;    
+            min-height: 45px;
+            padding: 0 10px;   
+        }
+        .credito ul{
+            list-style: none;
+            padding: 0 10px;
+        }
+            .credito ul li{
+                margin-bottom: 20px;
+            }
+                .credito ul li img{
+                    display: inline-block;
+                    margin-right: 10px;
+                    max-width: 30px;
+                    vertical-align: top;
+                }
+                .texto-credito{
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                    .texto-credito h6{
+                        color: #fff;
+                        font: 14px / 1.3 "Roboto", sans-serif;
+                        font-weight: 700;
+                        margin: 0 auto;
+                    }
+                        .texto-credito h6 span{
+                            color: #DEA050;
+                            display: block;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+    .btn-volver{  
+        background: #DEA050;  
+        border-radius: 32px;   
+        color: #402710;
+        cursor: pointer;
+        display: block;
+        font: 26px/1 "Caveat", cursive;
+        font-weight: 700;
+        margin: 50px auto;        
+        max-width: 150px;
+        padding: 5px;
+        text-align: center;
+        width: 100%;        
+    }
+    .taza-vacia{
+        cursor: pointer;
+        display: block;
+        margin: 50px auto 0;
+        max-width: 300px;
+    }
+.box-indicacion{
+
+}
+    .box-indicacion img{
+        max-width: 20px;
+    }
+    .box-indicacion span{
+        display: block;
+        font: 13px / 1.2 "Roboto", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+.salirLeftGrano{
+    left: -100%;
+    transition: all 1s ease-in-out;   
+}
+.enterLeftGrano{
+    left: 0;
+    transition: all 1s ease-in-out;   
+}
+.salirRightGrano{
+    right: -100%;
+    transition: all 1s ease-in-out;   
+}
+.enterRightGrano{
+    right: 0;
+    transition: all 1s ease-in-out;   
+}
+.box-cifras .salirRightPorta{
+    /*right: -100%;*/
+    transition: all 1s ease-in-out;   
+    transform: rotate(240deg);
+}
+.box-cifras .enterRightPorta{
+    /*right: -240px;*/
+    transition: all 1s ease-in-out;   
+    transform: rotate(360deg);
+}
+.box-ruta .salirLeftCuchara{
+    left: -100%;
+    transition: all 1s ease-in-out;   
+}
+.box-ruta .enterLeftCuchara{
+    left: 0;
+    transition: all 1s ease-in-out;   
+}
+.box-main-buscador .salirLeftManoIzq{
+    left: -100%;
+    transition: all 1s ease-in-out;   
+}
+.box-main-buscador .enterLeftManoIzq{
+    left: -100px;
+    transition: all 1s ease-in-out;   
+}
+.box-main-buscador .salirLeftManoDer{
+    right: -100%;
+    transition: all .5s ease-in-out;   
+}
+.box-main-buscador .enterLeftManoDer{
+    right: -55px;
+    transition: all .5s ease-in-out;   
+}
+.box-main-mano-cafe{
+    height: 60vh;
+    position: relative;
+    width: 100%;
+}
+    img.mano-cafe-1{
+        left: -100%;
+        max-width: 58%;
+        position: absolute;
+        top: 83px;
+        z-index: 10;
+    }
+    img.mano-cafe-3{
+        right: -100%;
+        max-width: 57%;
+        position: absolute;
+        top: -20px;
+    }
+ul.fuentes{
+    margin: 50px auto;
+    padding: 0;
+}
+    ul.fuentes li{
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: top;
+    }
+        ul.fuentes li p{
+            color: #402710;
+            font: 15px / 1.2 "Roboto", sans-serif;
+            font-weight: 400;
+            margin: 0 auto;
+        }
+        ul.fuentes li:nth-child(1){
+            display: block;
+            margin-bottom: 10px;
+        }
+            ul.fuentes li:nth-child(1) p{
+                font-weight: 700;
+            }
+        ul.fuentes li:nth-child(2),
+        ul.fuentes li:nth-child(3),
+        ul.fuentes li:nth-child(4),
+        ul.fuentes li:nth-child(5){
+            border-right: 1px solid #c19064;
+
+        }
+
+/* añadido 2025 */       
+.box-personajes{
+    background-color: #FFF8F0;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    position: relative;
+}
+    .box-personaje::after{
+        border-color: transparent transparent #FFF8F0 transparent;
+    }
+    .box-personajes h4{
+        font: 45px/1 "Caveat", cursive;
+        font-weight: 700;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .box-personajes p.bajada{
+        font: 15px / 1.5 "Roboto", sans-serif;
+        font-weight: 400;
+        margin: 20px auto;
+        max-width: 450px;
+        text-align: center;
+    }
+    .box-ctn-personajes{
+        margin: 0 auto;
+        max-width: 1200px;
+        text-align: center;
+    }
+        .box-personaje{
+            display: inline-block;
+            margin: 0 60px 30px;
+            max-width: 375px;
+            text-align: left;
+            vertical-align: top;
+        }
+            .box-personaje img{
+                margin-bottom: 10px;
+                max-width: 180px;
+            }
+            .box-personaje h4{
+                font: 1.8rem/1 'dream_gloryregular';
+                text-align: left;
+            }
+            .box-personaje h5{
+                background-color: #DEA050;
+                font: 15px / 1.5 "Roboto", sans-serif;
+                font-style: italic;
+                font-weight: 900;   
+                margin: 10px 0;
+                max-width: fit-content;
+                padding: 5px;
+            }
+            .box-personaje p{
+                font: 15px / 1.5 "Roboto", sans-serif;
+                font-weight: 400;
+            }
+                .box-personaje p span{
+                    color: #dea050;
+                }
+
+@media only screen and (max-width: 640px){
+   
+    html{
+        overflow-x: hidden;
+    }
+    .granos-portada{
+        top: -50px;
+    }
+    .taza-portada{
+        bottom: -70px;
+        max-width: 350px;
+        position: absolute;
+        right: -105px;
+    }
+    .box-titulo h1{
+        height: 150px;
+        width: 300px;        
+    }
+    .box-titulo h2{
+        font-size: 21px;
+    }
+    input[type="radio"] + label{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .box-servilleta{
+        height: 1100px;
+        width: 100%;
+    }
+        .box-columna-info h4{
+            font-size: 22px;
+        }
+        .box-columna-info p,
+        .box-info-cifras p{
+            font-size: 17px;
+        }
+        img.taza{
+            margin: 30px 20px 0;
+        }
+        .box-columna-cifras{
+            margin: 30px 36px 0;
+        }
+        .btn-reset{
+            margin: 25px auto;
+            max-width: 250px;
+            width: 100%;
+        }
+    .box-gris{
+        height: 70vh;
+    }
+    img.planta-cafe{
+        margin-top: -60px;
+    }
+    .box-granos h4{
+        height: 98px;
+        width: 300px;
+    }
+    .box-granos p{
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+    .box-parrafo h5{
+        font-size: 1.8rem;
+        padding: 0 10px;
+    }
+    img.granos-cafe{
+        display: none;
+    }
+    img.porta{
+        right: -280px;
+    }
+    .box-cifras{
+        padding: 80px 20px 40px;
+    }
+        .box-cifras p,
+        .box-tipos p{
+            font-size: 17px;
+        }
+        .box-tipos p{
+            padding: 0 20px;
+        }
+    .box-columna{
+        margin: 0 auto;
+        max-width: 90%;
+    }
+        .box-columna ul li h5{
+            font-size: 17px;
+        }
+        .box-columna ul li p{
+            padding: 0;
+        }
+    .box-tipos h4, 
+    .box-competencias h4{
+        font-size: 26px;
+    }
+    .box-competencias h4{
+        padding: 0 10px;
+    }
+        .box-tipos h4 span, 
+        .box-competencias h4 span{
+            font-size: 42px;
+        }
+    p.cifra{
+        font-size: 26px;
+        padding: 20px;
+    }
+    .box-gasto{
+        padding: 20px 20px 40px;
+    }
+        .box-gasto p, 
+        .box-info-competencia p{
+            font-size: 17px;
+        }
+        p.bold{
+            max-width: 280px;
+        }
+        p.marron{
+            margin: 15px;
+        }
+    img.cafe-molido{
+        margin-bottom: 40px;
+    }
+    .main-exportacion h4, 
+    .box-gasto h4, 
+    .box-ruta h4, 
+    .box-main-buscador h4, 
+    .box-main-tazas h4{
+        font: 24px / 1.2 "Roboto", sans-serif;
+    }
+    .main-exportacion{
+        margin: 0 auto 50px;
+    }
+    .competencia img{
+        border-right: none;
+        margin-bottom: 20px;
+        max-width: 135px;
+        padding: 0;        
+    }
+    .box-info-competencia{
+        max-width: 95%;
+        padding-left: 0;
+    }
+        .box-columna ul li h5, 
+        .box-info-competencia h5{
+            font-size: 17px;
+        }
+    .separador{
+        display: none;
+    }
+    .main-logros .box-info-competencia{
+        margin-bottom: 40px;
+    }
+    img.bg-cuchara{
+        max-width: 70%;
+    }
+    .box-texto-ruta{
+        max-width: 90%;
+    }
+        .box-texto-ruta h5{
+            font-size: 32px;
+        }
+        .box-texto-ruta p{
+            font-size: 17px;
+        }
+    .main-pasaporte .box-texto-ruta{
+        max-width: 90%;
+    }
+        .main-pasaporte img {
+            margin: 50px auto 0;
+            max-width: 80%;            
+        }
+    .box-desplegable{
+        max-width: 80%;
+    }
+        .box-desplegable select{
+            font-size: 1.2rem;
+        }
+    .box-info-cafeteria{
+        max-width: 80%;
+    }
+        .box-info-cafeteria h5{
+            font-size: 18px;
+        }
+        .texto h6{
+            font-size: 17px;
+            line-height: 1.5;
+            max-width: 85%;
+        }
+    .box-slider-taza input[type="range"]{
+        border-radius: 10px;
+        height: 12px;
+    }
+    .box-indicacion{
+
+    }
+        .box-indicacion img{
+            max-width: 25px;
+        }
+        .box-indicacion span{
+            font-size: 15px;
+        }
+    #info-taza-1 p, 
+    #info-taza-2 p, 
+    #info-taza-3 p, 
+    #info-taza-4 p{
+        font-size: 17px;
+    }
+    p.aviso{
+        font-size: 15px;
+        padding: 0 20px
+    }
+    .credito{
+        min-width: 70%;
+        max-width: 70%;
+    }
+    .credito ul li img{
+        margin: 0 10px 0 0;
+        max-width: 35px;
+    }
+    .texto-credito h6{
+        font-size: 15px;
+    }
+        .texto-credito h6 span{
+            font-size: 15px;
+        }
+    .box-frase{
+        padding: 0 20px;
+    }
+        .box-frase h6{
+            font-size: 29px;
+        }
+        .autor img{
+            max-width: 65px;
+        }
+        .info-autor{
+            max-width: 80%;
+        }
+            .info-autor p{
+                padding: 0;
+            }
+    .box-main-mano-cafe{
+        height: 30vh;
+    }
+        img.mano-cafe-1{
+            max-width: 70%;
+            top: 60px;
+        }
+        img.mano-cafe-3{
+            max-width: 75%;
+            top: 0;
+        }
+    #contenido-5 .box-texto-recomendacion p{
+        padding: 0 20px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+
+    .granos-cafe-izq{
+        left: -30%;
+    }
+    .granos-cafe-der{
+        right: -30%;
+    }
+    .separador{
+        display: none;
+    }
+    .main-logros .box-info-competencia{
+        margin: 0 40px 40px;
+    }
+    .main-pasaporte img{
+        margin-top: 120px;
+    }
+    .box-footer{
+        padding: 80px 20px 0;
+    }
+
+}
+@media only screen and (max-width: 1024px){
+
+    .granos-cafe-izq{
+        left: -15%;
+    }
+    .granos-cafe-der{
+        right: -15%;
+    }
+    .main-pasaporte img{
+        margin-top: 120px;
+    }
+    .separador{
+        display: none;
+    }
+    .main-logros .box-info-competencia{
+        margin: 0 40px 40px;
+    }
+
+}
+@media only screen and (max-height: 732px){
+
+}
