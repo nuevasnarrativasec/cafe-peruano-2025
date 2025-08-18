@@ -78,7 +78,7 @@ body{
     right: 0;
 }
 .box-cabecera{
-    background: url('https://nuevasnarrativasec.github.io/cafe-peruano-2025/img/bg-portada-2.jpg') no-repeat center center;
+    background: url('https://nuevasnarrativasec.github.io/cafe-peruano-2025/img/bg-portada-3.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -1080,7 +1080,7 @@ body{
             text-transform: uppercase;                      
         }
 .box-footer{
-    background: url(https://nuevasnarrativasec.github.io/cafe-peruano-2025/img/bg-portada-2.jpg) no-repeat center center;
+    background: url(https://nuevasnarrativasec.github.io/cafe-peruano-2025/img/bg-portada-3.jpg) no-repeat center center;
     background-size: cover;   
     padding-top: 80px;
     position: relative;
