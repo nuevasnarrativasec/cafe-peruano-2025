@@ -1383,6 +1383,12 @@ ul.fuentes{
             max-width: 150px;
             vertical-align: top;
         }
+        .derecha-dos{
+            margin-top: 180px;
+        }
+        .izquierda-final{
+            margin-top: 130px;
+        }
 
 @media only screen and (max-width: 640px){
    
@@ -1698,6 +1704,23 @@ ul.fuentes{
     }
     .box-footer{
         padding: 80px 20px 0;
+    }
+    .margin-top{
+        margin-top: 0;
+    }
+    #preparar h6{
+        margin-top: 95px;
+    }
+    .flecha-derecha {
+        margin-top: 430px;
+        max-width: 120px;
+    }
+    .flecha-izquierda {
+        margin-top: 430px;
+        max-width: 120px;
+    }
+    .box-ctn-personajes .izquierda-final{
+        margin-top: 300px;
     }
 
 }
