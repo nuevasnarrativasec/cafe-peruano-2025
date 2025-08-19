@@ -1461,6 +1461,7 @@ ul.fuentes{
         .box-cifras p,
         .box-tipos p{
             font-size: 17px;
+            line-height: 1.7;
         }
         .box-tipos p{
             padding: 0 20px;
@@ -1547,6 +1548,7 @@ ul.fuentes{
         }
         .box-texto-ruta p{
             font-size: 17px;
+            line-height: 1.7;
         }
     .main-pasaporte .box-texto-ruta{
         max-width: 90%;
@@ -1640,6 +1642,7 @@ ul.fuentes{
     }
 
     .box-personajes p.bajada{
+        font: 17px/1.7;
         padding: 0 20px;
     }
     .box-personaje{
