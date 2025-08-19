@@ -1639,6 +1639,42 @@ ul.fuentes{
         padding: 0 20px;
     }
 
+    .box-personajes p.bajada{
+        padding: 0 20px;
+    }
+    .box-personaje{
+        margin: 30px 20px;
+        text-align: center;
+    }
+    .box-personaje img.bg-ilus{
+        display: block;
+        margin: 0 auto;
+        max-width: 100px;
+    }
+    .box-personaje h6{
+        margin: 0 auto 10px;
+    }
+    .box-datos-personaje{
+        max-width: 200px;
+    }
+    .box-personaje h4{
+        font: 1.7rem / 1 'dream_gloryregular';
+    }
+    .box-personaje h5{
+        text-align: left;
+    }
+    .box-header-personaje img{
+        margin-top: 10px;
+        max-width: 100px;
+    }
+    .box-personaje p{
+        text-align: left;
+    }
+    .flecha-derecha,
+    .flecha-izquierda{
+        display: none;
+    }
+
 }
 @media only screen and (max-width: 768px){
 
