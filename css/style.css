@@ -1311,7 +1311,7 @@ ul.fuentes{
         }
             .box-personaje img.bg-ilus{
                 display: inline-block;
-                max-width: 150px;
+                max-width: 130px;
                 vertical-align: top;
             }
             .box-personaje h6{
@@ -1319,10 +1319,10 @@ ul.fuentes{
                 display: inline-block;
                 font: 2rem / 1 'dream_gloryregular';
                 vertical-align: middle;
-                margin: 80px 20px;
+                margin: 50px 20px;
             }
                 .box-personaje h6 span{
-                    font-size: 3rem;
+                    font-size: 4rem;
                 }
             .box-header-personaje{
                 border-bottom: 1px solid #000;
@@ -1337,6 +1337,7 @@ ul.fuentes{
                 }
                 .box-datos-personaje{
                     display: inline-block;
+                    margin: 0 10px;
                     max-width: 390px;
                     vertical-align: top;
                 }
@@ -1364,9 +1365,21 @@ ul.fuentes{
         .left{
             float: left;
         }
+        .right{
+            float: right;
+        }
+        .margin-top{
+            margin-top: -100px;
+        }
         .flecha-derecha{
             float: left;
             margin-top: 250px;
+            max-width: 150px;
+            vertical-align: top;
+        }
+        .flecha-izquierda{
+            float: right;
+            margin-top: 220px;
             max-width: 150px;
             vertical-align: top;
         }
