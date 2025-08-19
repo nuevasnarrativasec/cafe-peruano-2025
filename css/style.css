@@ -914,7 +914,9 @@ body{
     }
     .box-desplegable{
         margin: 20px auto 30px;
-        max-width: 250px;
+        max-width: 250px;           
+        position: relative;
+        z-index: 50;
     }
         .box-desplegable p{
             color: #DEA050;
