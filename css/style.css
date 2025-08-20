@@ -113,6 +113,11 @@ body{
             text-indent: -9999px;
             width: 500px;            
         }
+            .box-titulo h1 span{
+                background-color: #fff;
+                color: #B25808;
+                font: 1rem/1.2 'dream_gloryregular';
+            }
         .box-titulo h2{
             color: #fff;
             font: 24px / 1.2 "Roboto", sans-serif;
